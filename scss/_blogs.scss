@@ -1,0 +1,47 @@
+.blogs {
+    .blog-item {
+        h4 {
+            color: $black;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 125px;
+        }
+        p {
+            text-align: left;
+        }
+        transition: .5s;
+        &:active,
+        &:hover {
+            background-color: $deepWhite;
+            box-shadow: 0px 2px 5px 1px  $gray;
+            transition: .5s;
+            
+        }
+        margin: 2px 0;
+    }
+}
+
+.profile {
+    .media {
+        img {
+            width: 60px;
+            height: 60px;
+        }
+        h6 {
+            margin-top: 5px;
+        }
+    }
+    padding: 10px 0;
+    border: 0;
+}
+
+@media (min-width: 992px) {
+    .profile {
+        border-bottom: 1px solid #c3c3c3;
+        &:last-child {
+            border: 0;
+        }
+    }
+}

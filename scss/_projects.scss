@@ -1,0 +1,38 @@
+.projects {
+    .project-item {
+        h4 {
+            font-size: 12px;
+            color: $black;
+            font-weight: 750;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 0;
+            transition: 1s;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 225px;
+        }
+        p {
+            font-size: 12px;
+            color: $text;
+            background-color: $deepWhite;
+            padding: 15px;
+            text-align: center;
+            transition: 1s;
+        }
+        
+        &:active,
+        &:hover {
+            h4,
+            p {
+                background-color: $parple;
+                color: $white;
+                box-shadow: 0px 2px 5px 1px  $gray;
+                transition: 1s;
+            }
+            
+        }
+    }
+}

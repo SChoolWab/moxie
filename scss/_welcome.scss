@@ -1,0 +1,40 @@
+.welcome {
+    width: 90%;
+    margin: auto;
+    .jumbotron {
+        background-color:transparent;
+        h1 {
+            color: $parple;
+            // font-size: 46px;
+        }
+        p {
+            color: $text;
+            // font-size: 12px;
+        }
+    }
+    
+}
+.round {
+
+    $img-width: 380px;
+    img {
+        width: $img-width;
+        height: $img-width;
+        border: 30px solid $parple;
+        border-radius: 50%;
+    }
+}
+
+.btn-custom {
+    padding: 10px 25px;
+    background-color: $parple;
+    color: $white;
+    border: 2px solid $parple;
+    border-radius: 999px;
+    transition: .5s;
+    &:hover {
+        background-color: transparent;
+        color: $parple;
+        transition: .5s;
+    }
+}
